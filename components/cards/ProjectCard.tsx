@@ -9,7 +9,10 @@ interface ProjectCardProps {
   desc: string;
   github?: string;
   link?: string;
+  linkText?: string;
+  tag?: string;
   index: number;
+  prefix?: string;
 }
 
 export function ProjectCard({
@@ -17,15 +20,25 @@ export function ProjectCard({
   desc,
   github,
   link,
+  linkText,
+  tag,
   index,
+  prefix = "PROJ",
 }: ProjectCardProps) {
-  const projectId = `[PROJ_${String(index + 1).padStart(3, "0")}]`;
+  const projectId = `[${prefix}_${String(index + 1).padStart(3, "0")}]`;
 
   return (
     <BrutalCard className="flex h-full flex-col">
-      <p className="mb-3 font-mono text-xs text-terminal-signal">
-        {projectId}
-      </p>
+      <div className="mb-3 flex items-center justify-between">
+        <p className="font-mono text-xs text-terminal-signal">
+          {projectId}
+        </p>
+        {tag && (
+          <span className="border border-terminal-signal/30 bg-terminal-signal/10 px-2 py-0.5 font-mono text-[10px] tracking-wider text-terminal-signal">
+            {tag}
+          </span>
+        )}
+      </div>
       <h3 className="mb-1 font-mono text-xl font-bold text-terminal-text">
         <GlitchText>{name}</GlitchText>
       </h3>
@@ -53,7 +66,7 @@ export function ProjectCard({
             className="flex items-center gap-2 border border-terminal-border px-3 py-1.5 font-mono text-xs text-terminal-dim transition-colors hover:border-terminal-signal hover:text-terminal-signal"
           >
             <ExternalLink size={14} aria-hidden />
-            LIVE DEMO
+            {linkText || "LIVE DEMO"}
           </a>
         ) : null}
       </div>
