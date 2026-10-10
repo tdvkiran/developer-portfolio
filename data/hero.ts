@@ -4,7 +4,7 @@ export const hero = {
   title: "Staff Software Engineer",
   description:
     "Staff Software Engineer with 8+ years of experience architecting frontend & full-stack systems in Accounting, Payments, Healthcare, and Engineering. Core technical driver at Tekion focusing on mission-critical Accounting systems (Journal Entries, Schedules, Bank Reconciliations) and payment infrastructure.",
-  resumeLink: "#",
+  resumeLink: "/resume.pdf",
   stats: [
     { value: 8, suffix: "+", label: "Years Experience" },
     { value: 12, suffix: "+", label: "Projects Delivered" },
