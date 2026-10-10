@@ -1,5 +1,10 @@
 export const projects = [
   {
+    name: "Tekion Accounting & Financial Platform",
+    desc: "Core enterprise Accounting platform at Tekion driving Journal Entries, Schedules, and Bank Reconciliations. Architected high-integrity financial workflows and ledger interfaces for modern automotive dealerships.",
+    link: "https://tekion.com",
+  },
+  {
     name: "TekionPay & Payment SDK",
     desc: "Payments platform built on Stripe. Engineered custom Payment SDK from scratch for both B2B and B2C applications with React, Next.js (SSR), Redux, and i18n, integrated into Tekion ARC platform.",
     link: "https://tekion.com",

@@ -12,7 +12,7 @@ import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 const fallbackGithub: GithubProfile = {
   avatar_url: "https://avatars.githubusercontent.com/u/15996863?v=4",
-  bio: "Senior Software Engineer with 6.5+ years of experience in Payments, Healthcare and Engineering.",
+  bio: "Staff Software Engineer with 6.5+ years of experience in Accounting & Payments Systems.",
   location: "Bangalore, India",
   html_url: "https://github.com/tdvkiran",
   login: "tdvkiran",

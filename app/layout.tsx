@@ -19,17 +19,20 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 const seoData = {
-  title: "Kiran Tadisetti | Senior Software Engineer",
+  title: "Kiran Tadisetti | Staff Software Engineer",
   siteName: "Kiran Tadisetti Portfolio",
   author: "Kiran Tadisetti",
   description:
-    "Senior Software Engineer with 6.5+ years of experience across Payments, Healthcare, and Engineering (React, Next.js, TypeScript, Ruby on Rails, AWS, Azure DevOps).",
+    "Staff Software Engineer with 6.5+ years of experience architecting enterprise Accounting systems (Journal Entries, Schedules, Bank Reconciliations) and Payments infrastructure at Tekion.",
   keywords: [
     "Kiran Tadisetti",
     "tdvkiran",
-    "Senior Software Engineer",
-    "Frontend Developer",
-    "Full Stack Developer",
+    "Staff Software Engineer",
+    "Frontend Architect",
+    "Accounting Systems",
+    "Journal Entries",
+    "Bank Reconciliations",
+    "Payments",
     "React Developer",
     "Next.js Developer",
     "TypeScript",
@@ -95,7 +98,6 @@ export const metadata: Metadata = {
     title: seoData.title,
     description: seoData.description,
     images: [seoData.image],
-    creator: "@1hanzla100",
   },
 };
 

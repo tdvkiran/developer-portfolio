@@ -1,14 +1,15 @@
 export const experience = [
   {
     company: "Tekion Corp",
-    role: "Senior Software Engineer",
+    role: "Staff Software Engineer",
     date: "Nov 2021 - Present",
     companyLogo: "/img/icons/common/tekion.svg",
-    desc: "Working on TekionPay, an enterprise payment platform built on top of the Stripe platform. Leading a front-end team of 4 engineers.",
+    desc: "Leading frontend architecture and engineering delivery for core Accounting systems and enterprise Payments platforms at Tekion.",
     descBullets: [
-      "Working as Front-end developer with technologies React, Redux, Next.js (SSR), Stripe elements, and i18n.",
-      "Leads a Front-end team group of 4 people.",
-      "Built Payment SDK from scratch which can be integrated into both B2B and B2C Payment applications like Tekion ARC platform and Payment Link app.",
+      "Driving the Accounting platform at Tekion with a primary focus on Journal Entries, Schedules, and Bank Reconciliations.",
+      "Engineered Payments platform (TekionPay) built on top of Stripe, utilizing React, Redux, Next.js (SSR), and i18n.",
+      "Built custom Payment SDK from scratch integrated into B2B and B2C applications including Tekion ARC platform and Payment Link app.",
+      "Leads frontend engineering teams, drives technical architecture, code standards, and mentoring.",
     ],
   },
   {

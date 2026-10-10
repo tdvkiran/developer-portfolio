@@ -18,8 +18,8 @@ export function SkillsSection() {
       <SectionLabel num="02" />
       <SectionTitle>WHAT I DO.</SectionTitle>
       <p className="max-w-2xl font-mono text-sm uppercase leading-relaxed tracking-widest text-terminal-soft">
-        Senior full stack developer building scalable backend systems,
-        high-performance APIs, data pipelines, and reliable production software
+        Staff Software Engineer architecting enterprise accounting systems,
+        payments infrastructure, and scalable high-performance frontend platforms
       </p>
       <div className="my-12 border-t border-terminal-border" />
       <TooltipProvider>

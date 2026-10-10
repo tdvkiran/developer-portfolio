@@ -1,10 +1,26 @@
 export const skillGroups = [
   {
+    title: "Accounting & Financial Systems",
+    capabilities: [
+      "Architecting enterprise Accounting platforms handling core General Ledger, Journal Entries, and automated Schedules",
+      "Designing Bank Reconciliations workflows, transaction matching engines, and financial auditing pipelines",
+      "Building high-volume Payments platform (TekionPay) integrated with Stripe, custom checkout flows, and Payment SDKs",
+    ],
+    softwareSkills: [
+      { skillName: "Journal Entries", iconifyTag: "carbon:accounting" },
+      { skillName: "Bank Reconciliations", iconifyTag: "carbon:finance" },
+      { skillName: "Stripe", iconifyTag: "logos:stripe" },
+      { skillName: "Payment SDK", iconifyTag: "mdi:credit-card-outline" },
+      { skillName: "General Ledger", iconifyTag: "mdi:book-open-page-variant" },
+      { skillName: "Audit Trails", iconifyTag: "carbon:data-view" },
+    ],
+  },
+  {
     title: "Frontend Development",
     capabilities: [
       "Architecting responsive, high-performance Single Page Apps (SPA) & SSR applications in React and Next.js",
       "Building modular, scalable UI component systems with TypeScript, Redux, and modern CSS/HTML5",
-      "Building payment flows, SDKs from scratch, and checkout UI with Stripe Elements and internationalization (i18n)",
+      "Engineering reusable SDKs from scratch integrated across B2B & B2C enterprise suites with full internationalization (i18n)",
     ],
     softwareSkills: [
       { skillName: "React", iconifyTag: "vscode-icons:file-type-reactjs" },
@@ -53,13 +69,12 @@ export const skillGroups = [
     title: "Cloud, DevOps & Tools",
     capabilities: [
       "Cloud infrastructure and deployment with AWS services (EC2, S3, CloudWatch) and Azure DevOps pipelines",
-      "Integrating Stripe payment platform, webhooks, and custom Payment SDK architectures",
-      "Telemetry, monitoring, and alerting dashboards using Sumo Logic and New Relic",
+      "Integrating payment platforms, webhooks, and telemetry alerting dashboards using Sumo Logic and New Relic",
+      "Maintaining CI/CD pipelines, package distribution via NPM, and containerized workflows with Docker",
     ],
     softwareSkills: [
       { skillName: "AWS", iconifyTag: "logos:aws" },
       { skillName: "Azure DevOps", iconifyTag: "logos:azure-icon" },
-      { skillName: "Stripe", iconifyTag: "logos:stripe" },
       { skillName: "Docker", iconifyTag: "logos:docker-icon" },
       { skillName: "Webpack", iconifyTag: "logos:webpack" },
       { skillName: "NPM", iconifyTag: "logos:npm-icon" },

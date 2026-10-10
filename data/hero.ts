@@ -1,9 +1,9 @@
 export const hero = {
   greeting: "HI ALL,",
   name: "KIRAN",
-  title: "Senior Software Engineer",
+  title: "Staff Software Engineer",
   description:
-    "Senior Software Engineer with 6.5+ years of experience in domains like Payments, Healthcare and Engineering. Adept in working with React, Next.js, TypeScript, REST APIs, Ruby on Rails, and Cloud Technologies (AWS, Azure DevOps).",
+    "Staff Software Engineer with 6.5+ years of experience architecting frontend & full-stack systems in Accounting, Payments, Healthcare, and Engineering. Core technical driver at Tekion focusing on mission-critical Accounting systems (Journal Entries, Schedules, Bank Reconciliations) and payment infrastructure.",
   resumeLink: "#",
   stats: [
     { value: 6, suffix: "+", label: "Years Experience" },
