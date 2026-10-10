@@ -23,7 +23,7 @@ const seoData = {
   siteName: "Kiran Tadisetti Portfolio",
   author: "Kiran Tadisetti",
   description:
-    "Staff Software Engineer with 6.5+ years of experience architecting enterprise Accounting systems (Journal Entries, Schedules, Bank Reconciliations) and Payments infrastructure at Tekion.",
+    "Staff Software Engineer with 8+ years of experience architecting enterprise Accounting systems (Journal Entries, Schedules, Bank Reconciliations) and Payments infrastructure at Tekion.",
   keywords: [
     "Kiran Tadisetti",
     "tdvkiran",
