@@ -21,7 +21,7 @@ export function ProjectsSection() {
       <div className="mb-14">
         <div className="mb-6 flex items-center gap-3">
           <span className="font-mono text-sm font-bold tracking-widest text-terminal-signal">
-            // 01. ENTERPRISE EXPERIENCE (TEKION)
+            // 01. ENTERPRISE PROJECTS (TEKION & HEXAGON / OCTAVE)
           </span>
           <div className="flex-1 border-t border-terminal-border" />
         </div>

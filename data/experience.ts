@@ -36,7 +36,7 @@ export const experience = [
     ],
   },
   {
-    company: "Hexagon Capability Center India",
+    company: "Hexagon Capability Center India (now Octave)",
     role: "Software Developer",
     date: "May 2018 - Aug 2020",
     companyLogo: "/img/icons/common/hexagon.svg",
@@ -48,7 +48,7 @@ export const experience = [
     ],
   },
   {
-    company: "Hexagon Capability Center India",
+    company: "Hexagon Capability Center India (now Octave)",
     role: "Software Development Intern",
     date: "Sept 2017 - Apr 2018",
     companyLogo: "/img/icons/common/hexagon.svg",

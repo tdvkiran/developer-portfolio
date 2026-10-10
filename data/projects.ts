@@ -22,6 +22,11 @@ export const enterpriseProjects: ProjectItem[] = [
     linkText: "TEKION.COM",
     tag: "TEKION CORP",
   },
+  {
+    name: "Cross-Platform Graphical Viewer Engine",
+    desc: "High-performance graphical display engine for cross-platform 2D/3D visualization across Web, Desktop, Android, and iOS using React, React Native, and WPF (.NET). Awarded 3 consecutive POB awards.",
+    tag: "HEXAGON / OCTAVE",
+  },
 ];
 
 export const personalProjects: ProjectItem[] = [
@@ -40,16 +45,9 @@ export const personalProjects: ProjectItem[] = [
     tag: "PYTHON",
   },
   {
-    name: "Cross-Platform Graphical Viewer Engine",
-    desc: "Engine for cross-platform 2D/3D graphical viewing and display across Web, Desktop, Android, and iOS using React, React Native, and WPF (.NET).",
-    tag: "GRAPHICS",
-  },
-  {
     name: "developer-portfolio",
     desc: "Cyberpunk and terminal-inspired software engineer portfolio showcasing technical experience, projects, skills, and telemetry.",
     github: "https://github.com/tdvkiran/developer-portfolio",
-    link: "https://github.com/tdvkiran/developer-portfolio",
-    linkText: "GITHUB",
     tag: "PORTFOLIO",
   },
 ];
