@@ -1,7 +1,7 @@
 export const proficiency = [
-  { label: "Backend Engineering", percentage: 95 },
-  { label: "Data Engineering / ETL", percentage: 90 },
-  { label: "Cloud & DevOps", percentage: 88 },
-  { label: "Frontend Development", percentage: 82 },
-  { label: "Testing & Reliability", percentage: 90 },
+  { label: "Frontend (React, Next.js, TypeScript)", percentage: 95 },
+  { label: "Backend (Ruby on Rails, Java, Spring Boot)", percentage: 88 },
+  { label: "Payments & Stripe Integration", percentage: 92 },
+  { label: "Databases (PostgreSQL, MongoDB, Redis)", percentage: 85 },
+  { label: "Cloud & DevOps (AWS, Azure DevOps)", percentage: 82 },
 ];

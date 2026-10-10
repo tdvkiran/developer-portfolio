@@ -8,10 +8,9 @@ import { Button } from "@/components/ui/button";
 import { socialLinks } from "@/data/social";
 
 const navLinks = [
-  { href: socialLinks.github, label: "GitHub", icon: "mdi:github" },
-  { href: socialLinks.linkedin, label: "LinkedIn", icon: "mdi:linkedin" },
-  { href: socialLinks.instagram, label: "Instagram", icon: "mdi:instagram" },
-];
+  socialLinks.github ? { href: socialLinks.github, label: "GitHub", icon: "mdi:github" } : null,
+  socialLinks.linkedin ? { href: socialLinks.linkedin, label: "LinkedIn", icon: "mdi:linkedin" } : null,
+].filter(Boolean) as { href: string; label: string; icon: string }[];
 
 export function NavBar() {
   const [open, setOpen] = useState(false);
@@ -41,7 +40,7 @@ export function NavBar() {
           href="#hero"
           className="font-mono text-lg font-bold tracking-wider text-terminal-text"
         >
-          <span className="text-terminal-signal">&gt;</span> HANZLA_TAUQEER
+          <span className="text-terminal-signal">&gt;</span> KIRAN_TADISETTI
         </a>
         <div className="hidden items-center gap-3 md:flex">
           {navLinks.map(({ href, label, icon }) => (

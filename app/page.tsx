@@ -11,16 +11,16 @@ import { SkillsSection } from "@/components/sections/SkillsSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 const fallbackGithub: GithubProfile = {
-  avatar_url: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  bio: "Full Stack Web Developer | Python / Django / React / Next.js",
-  location: "Karachi, PK",
-  html_url: "https://github.com/1hanzla100",
-  login: "1hanzla100",
+  avatar_url: "https://avatars.githubusercontent.com/u/15996863?v=4",
+  bio: "Senior Software Engineer with 6.5+ years of experience in Payments, Healthcare and Engineering.",
+  location: "Bangalore, India",
+  html_url: "https://github.com/tdvkiran",
+  login: "tdvkiran",
 };
 
 async function getGithubProfile(): Promise<GithubProfile> {
   try {
-    const res = await fetch("https://api.github.com/users/1hanzla100", {
+    const res = await fetch("https://api.github.com/users/tdvkiran", {
       headers: { Accept: "application/vnd.github.v3+json" },
       cache: "force-cache",
     });

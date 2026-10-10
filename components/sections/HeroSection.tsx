@@ -59,17 +59,16 @@ export function HeroSection() {
           <Button asChild>
             <a href={hero.resumeLink}>[ SEE MY RESUME ]</a>
           </Button>
-          <SocialLink href={socialLinks.github} icon="mdi:github" label="GitHub" />
-          <SocialLink
-            href={socialLinks.linkedin}
-            icon="mdi:linkedin"
-            label="LinkedIn"
-          />
-          <SocialLink
-            href={socialLinks.instagram}
-            icon="mdi:instagram"
-            label="Instagram"
-          />
+          {socialLinks.github && (
+            <SocialLink href={socialLinks.github} icon="mdi:github" label="GitHub" />
+          )}
+          {socialLinks.linkedin && (
+            <SocialLink
+              href={socialLinks.linkedin}
+              icon="mdi:linkedin"
+              label="LinkedIn"
+            />
+          )}
         </div>
       </div>
       <div className="relative z-10 grid grid-cols-3 border-t border-terminal-border">

@@ -1,26 +1,28 @@
 export const projects = [
   {
-    name: "ToughCAD",
-    desc: "Developed an e-commerce module supporting large file uploads and automated PDF post-processing workflows. Integrated shipping APIs and fulfillment automation. Contributed to generating £250k+ in annual revenue through the platform.",
-    link: "https://toughcad.co.uk/",
+    name: "TekionPay & Payment SDK",
+    desc: "Payments platform built on Stripe. Engineered custom Payment SDK from scratch for both B2B and B2C applications with React, Next.js (SSR), Redux, and i18n, integrated into Tekion ARC platform.",
+    link: "https://tekion.com",
   },
   {
-    name: "NAVA Ring",
-    desc: "Developed backend systems integrating wearable smart ring data. Implemented metric processing logic and AI-powered recommendations using OpenAI APIs.",
-    link: "https://navaring.com/",
+    name: "sophisticated-todo-app",
+    desc: "Modern task management and productivity web application built with TypeScript, React, and deployed on Vercel with an interactive user experience.",
+    github: "https://github.com/tdvkiran/sophisticated-todo-app",
+    link: "https://sophisticated-todo-app.vercel.app",
   },
   {
-    name: "Premium Property Management",
-    desc: "A comprehensive property management platform for efficient management of properties, leasing, maintenance, and contracts. To simplify property operations.",
+    name: "finance-dashboard",
+    desc: "Financial analytics and portfolio tracking dashboard application built with Python for tracking markets and metrics.",
+    github: "https://github.com/tdvkiran/finance-dashboard",
   },
   {
-    name: "Visual Portfolios",
-    desc: "Empowering content creators to generate stunning infographics effortlessly, while boosting their LinkedIn audience. Write, visualize, and grow with our user-friendly platform.",
+    name: "Cross-Platform Graphical Viewer Engine",
+    desc: "Engine for cross-platform 2D/3D graphical viewing and display across Web, Desktop, Android, and iOS using React, React Native, and WPF (.NET).",
   },
   {
     name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer. 800+ Stars & 480+ Forks",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    desc: "Cyberpunk and terminal-inspired software engineer portfolio showcasing technical experience, projects, skills, and telemetry.",
+    github: "https://github.com/tdvkiran/developer-portfolio",
+    link: "https://github.com/tdvkiran/developer-portfolio",
   },
 ];

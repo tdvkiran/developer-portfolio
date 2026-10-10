@@ -33,27 +33,25 @@ export function ContactSection({ github }: ContactSectionProps) {
 						href={socialLinks.email}
 						className="mt-8 inline-flex border border-terminal-signal px-4 py-2 font-mono text-sm text-terminal-signal transition-colors hover:bg-terminal-signal hover:text-terminal-bg"
 					>
-						hanzla.tauqeer123@gmail.com
+						{socialLinks.email.replace("mailto:", "")}
 					</a>
 					<div className="mt-6 flex flex-wrap gap-3">
-						<SocialLink
-							href={socialLinks.github}
-							icon="mdi:github"
-							label="GITHUB"
-							showLabel
-						/>
-						<SocialLink
-							href={socialLinks.linkedin}
-							icon="mdi:linkedin"
-							label="LINKEDIN"
-							showLabel
-						/>
-						<SocialLink
-							href={socialLinks.instagram}
-							icon="mdi:instagram"
-							label="INSTAGRAM"
-							showLabel
-						/>
+						{socialLinks.github && (
+							<SocialLink
+								href={socialLinks.github}
+								icon="mdi:github"
+								label="GITHUB"
+								showLabel
+							/>
+						)}
+						{socialLinks.linkedin && (
+							<SocialLink
+								href={socialLinks.linkedin}
+								icon="mdi:linkedin"
+								label="LINKEDIN"
+								showLabel
+							/>
+						)}
 					</div>
 				</div>
 				<div className="relative mx-auto aspect-square w-40 shrink-0 overflow-hidden border border-terminal-border bg-terminal-surface sm:w-48 md:ml-auto md:mr-0 md:w-56 lg:w-64">
