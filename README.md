@@ -1,133 +1,95 @@
-<h1 align="center">Welcome to hanzla-portfolio</h1>
+<h1 align="center">Kiran Tadisetti | Developer Portfolio</h1>
 
-## Senior Software Engineer Portfolio built with Next.js, TypeScript, Tailwind CSS, and a dark design system.
+<p align="center">
+  <strong>Senior Software Engineer Portfolio built with Next.js, TypeScript, Tailwind CSS, and a Cyberpunk/Terminal design system.</strong>
+</p>
 
-This project is a single-page portfolio for **Hanzla Tauqeer**. It showcases skills, proficiency, education, work experience, selected projects, and GitHub/contact details through a terminal-inspired interface.
+---
 
-## Sections
+Personal developer portfolio for **Kiran Tadisetti**, showcasing software engineering experience, technical skills, projects, education, and contact telemetry through a modern terminal-inspired interface.
 
-- Summary and hero profile
-- Skills and engineering capabilities
-- Proficiency
-- Education
-- Work experience
-- Projects
-- GitHub profile and contact links
+## 🚀 Live Demo & Preview
 
-## Getting Started
+- **Live URL**: [https://tdvkiran.github.io](https://tdvkiran.github.io)
+- **Repository**: [https://github.com/tdvkiran/developer-portfolio](https://github.com/tdvkiran/developer-portfolio)
 
-These instructions will get a copy of the project running locally for development and testing.
+## 📌 Sections
 
-You'll need [Node.js](https://nodejs.org/en/download/) and npm installed on your computer.
+- **Hero & Terminal Telemetry**: Overview, years of experience, live metrics, and resume link
+- **Skills & Capabilities**: Frontend (React, Next.js), Backend (Ruby on Rails, Java, Spring Boot), Cloud, and Databases
+- **Proficiency Metrics**: Visual proficiency progress bars
+- **Education**: VIT University (M.Tech Integrated), Narayana Jr College, Siddhartha High School
+- **Work Experience**: Tekion Corp, INDmoney, Dassault Systèmes, and Hexagon Capability Center India
+- **Featured Projects**: TekionPay & Payment SDK, sophisticated-todo-app, finance-dashboard, etc.
+- **Contact & GitHub Telemetry**: Direct email and real-time GitHub profile card
 
+## 🛠️ Getting Started
+
+To run this project locally:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18.x or higher)
+- [npm](https://www.npmjs.com/) (v9.x or higher)
+
+### Installation & Run
+
+1. Clone repository:
 ```bash
-node@v18 or higher
-npm@9 or higher
+git clone https://github.com/tdvkiran/developer-portfolio.git
+cd developer-portfolio
 ```
 
-## How To Use
-
-1. Go into the project directory.
-
-```bash
-cd portfolio
-```
-
-2. Install dependencies.
-
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Start the development server.
-
+3. Start development server:
 ```bash
 npm run dev
 ```
 
-4. Open the local site in your browser.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```bash
-http://localhost:3000
-```
+## 📜 Available Scripts
 
-## Available Scripts
+- `npm run dev` - Starts the Next.js development server
+- `npm run build` - Builds the optimized static production export to `out/`
+- `npm run start` - Starts the production server
+- `npm run lint` - Runs ESLint code quality checks
+- `npm run test` - Runs Vitest unit tests
 
-```bash
-npm run dev
-```
+## 📁 Project Structure & Content Management
 
-Runs the Next.js development server.
+Portfolio data is centralized in the `data/` folder:
 
-```bash
-npm run build
-```
+- [`data/hero.ts`](data/hero.ts) - Name, title, bio, resume link, and count-up stats
+- [`data/skills.ts`](data/skills.ts) - Skill categories, capabilities, and Iconify badges
+- [`data/proficiency.ts`](data/proficiency.ts) - Proficiency percentages
+- [`data/education.ts`](data/education.ts) - Degrees, schools, and academic achievements
+- [`data/experience.ts`](data/experience.ts) - Work history, company logos, and role descriptions
+- [`data/projects.ts`](data/projects.ts) - Featured showcase projects with GitHub and demo links
+- [`data/social.ts`](data/social.ts) - Email, GitHub, and LinkedIn profiles
 
-Builds the static production site.
+## 💻 Technologies Used
 
-```bash
-npm run start
-```
-
-Starts the production server.
-
-```bash
-npm run lint
-```
-
-Runs ESLint checks.
-
-```bash
-npm run test
-```
-
-Runs the Vitest test suite.
-
-## Editing Portfolio Content
-
-Most portfolio content is managed from the `data/` directory:
-
-- `data/hero.ts` - greeting, title, summary, resume link, and stats
-- `data/skills.ts` - skill groups, capabilities, and icons
-- `data/proficiency.ts` - proficiency bars
-- `data/education.ts` - education history
-- `data/experience.ts` - work experience
-- `data/projects.ts` - featured projects
-- `data/social.ts` - email and social links
-
-Page sections are composed in `app/page.tsx`, and SEO metadata is configured in `app/layout.tsx`.
-
-## Technologies Used
-
-- [Next.js](https://nextjs.org/)
+- [Next.js](https://nextjs.org/) (App Router & Static Export)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Radix UI](https://www.radix-ui.com/)
-- [lucide-react](https://lucide.dev/)
+- [Lucide Icons](https://lucide.dev/)
 - [Iconify](https://icon-sets.iconify.design/)
-- [Vitest](https://vitest.dev/)
 
-## Design System
+## 👤 Author
 
-The visual direction is documented in `Theme.md`. The interface uses a dark theme with monospace typography, hard borders, terminal-inspired spacing, red/orange accents, and motion effects powered by Framer Motion.
+**Kiran Tadisetti**
+- GitHub: [@tdvkiran](https://github.com/tdvkiran)
+- LinkedIn: [linkedin.com/in/kirantadisetti](https://www.linkedin.com/in/kirantadisetti/)
+- Email: [kirantadisetti@yahoo.com](mailto:kirantadisetti@yahoo.com)
 
-## Static Export
+## 🙏 Acknowledgements
 
-This project is configured for static export in `next.config.ts`:
-
-```ts
-output: "export"
-```
-
-After running `npm run build`, the exported site is generated by Next.js and can be deployed to static hosting providers.
-
-## Author
-
-**Hanzla Tauqeer**
-
-- GitHub: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://www.linkedin.com/in/1hanzla100/)
-- Instagram: [@hanzla_tauqeer](https://www.instagram.com/hanzla_tauqeer)
-- Email: [hanzla.tauqeer123@gmail.com](mailto:hanzla.tauqeer123@gmail.com)
+- Design system and initial template layout inspired by [Hanzla Tauqeer](https://github.com/1hanzla100).
