@@ -31,11 +31,35 @@ export const enterpriseProjects: ProjectItem[] = [
 
 export const personalProjects: ProjectItem[] = [
   {
+    name: "EDA NYC Taxi Analysis",
+    desc: "Comprehensive Exploratory Data Analysis (EDA) on New York City Yellow Taxi operations (2023), investigating geospatial distributions, demand surge patterns, and revenue optimization strategies.",
+    github: "https://github.com/tdvkiran/EDA_NYC_Taxi_Analysis_Kiran_Tadisetti",
+    tag: "DATA SCIENCE",
+  },
+  {
+    name: "covid19-Tracker",
+    desc: "Real-time COVID-19 pandemic analytics dashboard built with React, Material-UI, Chart.js, and Axios, visualizing live global and country-wise infection curves and recovery metrics.",
+    github: "https://github.com/tdvkiran/covid19-Tracker",
+    link: "https://tdvkiran.github.io/covid19-Tracker",
+    tag: "REACT / CHARTS",
+  },
+  {
+    name: "pay-tek-cars",
+    desc: "Automotive showcase and payment checkout web app built with React, Material-UI, and Axios, implementing vehicle selection and checkout workflows.",
+    github: "https://github.com/tdvkiran/pay-tek-cars",
+    tag: "REACT",
+  },
+  {
+    name: "nodejs-weather-website",
+    desc: "Weather forecast web application built with Node.js, Express, and Handlebars (HBS), integrating location geocoding and real-time weather APIs.",
+    github: "https://github.com/tdvkiran/nodejs-weather-website",
+    tag: "NODE.JS",
+  },
+  {
     name: "sophisticated-todo-app",
     desc: "Modern task management and productivity web application built with TypeScript, React, and deployed on Vercel with an interactive user experience.",
     github: "https://github.com/tdvkiran/sophisticated-todo-app",
     link: "https://sophisticated-todo-app.vercel.app",
-    linkText: "LIVE DEMO",
     tag: "FULL STACK",
   },
   {
